@@ -17,7 +17,7 @@ const images = [
     description: "Mock E-commerce shoe website similar to a professional one",
     githubLink:
       "https://github.com/alexdavid22/REACT.JS-E-Commerce-Advance-Filtering-Project",
-    thumbnail: "e-commerce.jpg",
+    thumbnail: "/images/e-commerce.jpg",
   },
   {
     name: "Work presentation website",
