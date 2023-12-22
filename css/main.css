@@ -1,0 +1,120 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  background: rgb(17, 17, 17);
+  color: white;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #333;
+  padding: 10px;
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: right;
+}
+
+.navbar li {
+  margin-right: 30px;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
+
+/* AboutMe */
+.about-me {
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-top: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 25px;
+}
+
+.about-me h1 {
+  font-size: 2rem;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+.about-me p {
+  font-size: 1.2rem;
+  color: #ffffff;
+}
+
+/* MyProjects  */
+.project-card {
+  width: 200px;
+  height: 150px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 16px;
+  margin: 8px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.project-card h2 {
+  font-size: 1.5em;
+  margin-bottom: 8px;
+}
+
+.project-card p {
+  margin-bottom: 12px;
+}
+
+.project-card a {
+  text-decoration: none;
+  color: #007bff;
+  font-weight: bold;
+}
+
+.project-card a:hover {
+  text-decoration: underline;
+}
+
+/* MyProjects2  */
+.project-card2 {
+  width: 500px;
+  height: 300px;
+  border: 1px solid #a1a1a1;
+  border-radius: 8px;
+  padding: 16px;
+  margin: 8px;
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+}
+
+.project-card2 h2 {
+  font-size: 1.5em;
+  margin-bottom: 40px;
+}
+
+.project-card2 p {
+  margin-bottom: 140px;
+}
+
+.project-card2 a {
+  font-size: 30px;
+  text-decoration: none;
+  color: #007bff;
+  font-weight: bold;
+}
+
+.project-card2 a:hover {
+  text-decoration: underline;
+}
